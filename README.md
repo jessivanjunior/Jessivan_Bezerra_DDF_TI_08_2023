@@ -16,7 +16,7 @@ Devemos começar definindo quais serão as interações que o chatbot terá, a f
 
 ## Case 5:
 ```SQL
-SELECT * //Selecione Tudo
-FROM users_emails //Da tabéla users_emails
-WHERE data_cadastro >= DATE_SUB(CURRENT_DATE, INTERVAL 30 DAY); //Onde a coluna data_cadastro possuir a data atual até 30 dias atrás
+SELECT * \\Selecione Tudo
+FROM users_emails \\Da tabéla users_emails
+WHERE data_cadastro >= DATE_SUB(CURRENT_DATE, INTERVAL 30 DAY); \\Onde a coluna data_cadastro possuir a data atual até 30 dias atrás
 ```
